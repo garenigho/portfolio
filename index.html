@@ -16,11 +16,15 @@
         header {
             background: #222;
             color: #fff;
-            padding: 2rem 0;
+            padding: 3rem 0;
             text-align: center;
+        }
+        header h1 {
+            margin: 0 0 0.5rem 0;
         }
         .container {
             width: 80%;
+            max-width: 800px;
             margin: auto;
             overflow: hidden;
             padding: 2rem 0;
@@ -35,6 +39,27 @@
         h2 {
             border-bottom: 2px solid #222;
             padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+        .project {
+            margin-bottom: 2rem;
+        }
+        .project h3 {
+            margin-bottom: 0.2rem;
+        }
+        .resume-btn {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.8rem 1.5rem;
+            background: #fff;
+            color: #222;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .resume-btn:hover {
+            background: #ddd;
         }
     </style>
 </head>
@@ -42,40 +67,31 @@
 
     <header>
         <h1>Garen Igho</h1>
-        <p>Computer Science | Graphic Design | IT Consultant</p>
+        <p>Computer Science & Graphic Design</p>
+        <!-- This link assumes you will drop a PDF named "resume.pdf" into your assets folder -->
+        <a href="assets/resume.pdf" class="resume-btn" target="_blank">View Resume</a>
     </header>
 
     <div class="container">
-        <!-- About Section -->
-        <section id="about">
-            <h2>About Me</h2>
-            <p>[Placeholder: A brief introduction about bridging the gap between technical infrastructure and creative design.]</p>
-        </section>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <div class="project">
+                <h3>Cybersecurity Audit Portal</h3>
+                <p>[Placeholder: Add screenshots and a brief description of the portal's functionality and the technical stack used.]</p>
+            </div>
 
-        <!-- Technical Projects Section -->
-        <section id="tech-projects">
-            <h2>Cybersecurity & IT Infrastructure</h2>
-            <ul>
-                <li><strong>Cybersecurity Audit Portal:</strong> [Placeholder: Brief description of the project and technical mastery.]</li>
-                <li><strong>Google Cybersecurity Professional Certificate:</strong> [Placeholder: Focus on NIST, Linux, and SQL skills acquired.]</li>
-            </ul>
-        </section>
+            <div class="project">
+                <h3>Will Power Mobile Detailing</h3>
+                <p>[Placeholder: Add screenshots of the landing page and describe the setup and services.]</p>
+            </div>
 
-        <!-- Design & Business Section -->
-        <section id="design-business">
-            <h2>Design & Entrepreneurship</h2>
-            <ul>
-                <li><strong>Will Power Mobile Detailing:</strong> [Placeholder: Details on the landing page setup, business launch, and services.]</li>
-                <li><strong>Vorare Clothing Brand:</strong> [Placeholder: Insert logo designs and brand identity work here.]</li>
-            </ul>
-        </section>
-        
-        <!-- Leadership Section -->
-        <section id="leadership">
-            <h2>Leadership & Community</h2>
-            <ul>
-                <li><strong>Brothers for Brothers:</strong> [Placeholder: Details regarding event coordination and operational organization.]</li>
-            </ul>
+            <div class="project">
+                <h3>Vorare Clothing Brand</h3>
+                <p>[Placeholder: Insert brand identity work, vector graphics, and logo designs here.]</p>
+            </div>
+
         </section>
     </div>
 
