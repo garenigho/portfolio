@@ -17,6 +17,7 @@ Below you will find a curated suite of hands-on security and infrastructure labs
 | **SIEM & Log Monitoring** | [Splunk SIEM Threat Detection](https://github.com/garenigho/Splunk-SIEM-Log-Analysis-Threat-Detection-Lab) | Splunk Enterprise, Universal Forwarder, SPL Query Engineering, SOC Dashboarding, Automated Alerting for Privilege Escalation |
 | **ITSM & ITIL Operations** | [ServiceNow ITSM Architecture](https://github.com/garenigho/ServiceNow-ITSM-Service-Catalog-Architecture-) | ServiceNow PDI, Incident Management Lifecycle, Service Catalog Engineering, Change Governance, SLA & MTTR Reporting |
 | **Vulnerability Management** | [Nessus Assessment & Remediation](https://github.com/garenigho/Nessus-Vulnerability-Assessment-Remediation) | Nessus Essentials, Credentialed Windows Auditing, CVSS Risk Prioritization, Protocol Hardening (SMB, TLS), Verification Re-Scanning |
+| **Azure Active Directory Lab (IaC & Vulnerability Management)** | [Azure-Lab-AD-Terraform](https://github.com/garenigho/Azure-Lab-ad-terraform) | Azure IaC, Terraform, Active Directory DS, Tenable Nessus Essentials, Credentialed Auditing, CVSS v3 Triage, Protocol Hardening (SMBv1, TLS 1.0/1.1), Post-Remediation Verification |
 
 ---
 
